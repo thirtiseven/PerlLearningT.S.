@@ -1,4 +1,4 @@
-my @alice = <STDIN>;
+chomp(my @alice = <STDIN>);
 print "1234567890" x 7,"\n";
 foreach (@alice) 
 {
