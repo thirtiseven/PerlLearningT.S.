@@ -1,0 +1,7 @@
+while (<>) 
+{
+	if(/fred)
+	{
+		print;
+	}
+}
