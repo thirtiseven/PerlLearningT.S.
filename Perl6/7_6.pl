@@ -5,3 +5,5 @@ while (<>)
 		print;
 	}
 }
+#OR 
+#if(/wilma/){if(/fred/){print;}}
