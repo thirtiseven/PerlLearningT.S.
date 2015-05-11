@@ -1,6 +1,6 @@
 while (<>) 
 {
-	if(/fred/)
+	if(/(f|F)red/)
 	{
 		print;
 	}
