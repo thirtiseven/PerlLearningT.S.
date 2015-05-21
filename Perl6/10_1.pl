@@ -9,7 +9,7 @@ while(1)
 	}elsif ($guess == $secret) {
 		print "Bingo!\n";
 		last;
-	}elsif ($guess < $sevret) {
+	}elsif ($guess > $secret) {
 		print "Too high\n";
 	}else{
 		print "Too low\n";
