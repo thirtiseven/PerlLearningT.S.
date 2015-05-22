@@ -1,9 +1,9 @@
-my $secret = int(1 + rand 100);
+my $secret = int(1 + rand 1024);
 #print $secret;
-my $chances = 5;
+my $chances = 7;
 while(1)
 {
-	if
+	
 	print ">>>";
 	chomp(my $guess = <STDIN>);
 	if ($guess =~ /quit|exit/) 
@@ -17,6 +17,13 @@ while(1)
 	}else{
 		print "Too low\n";
 	}
+	if ($chances <= 0) 
+	{
+		print "You lose!The answer is $secret!\n";
+		
+		last;
+	}else{
 	print "You have $chances chances left.\n";
+	}
 	$chances--;
 }
