@@ -1,5 +1,6 @@
 my $secret = int(1 + rand 100);
 #print $secret;
+my $chances = 5;
 while(1)
 {
 	chomp(my $guess = <STDIN>);
