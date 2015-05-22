@@ -14,4 +14,6 @@ while(1)
 	}else{
 		print "Too low\n";
 	}
+	print "You have $chances chances left.\n";
+	$chances--;
 }
