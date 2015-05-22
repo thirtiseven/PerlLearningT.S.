@@ -3,6 +3,8 @@ my $secret = int(1 + rand 100);
 my $chances = 5;
 while(1)
 {
+	if
+	print ">>>";
 	chomp(my $guess = <STDIN>);
 	if ($guess =~ /quit|exit/) 
 	{
