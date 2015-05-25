@@ -1,3 +1,4 @@
+#COPY
 for ( @ARGV )
 {
 	say "Processing $_";
